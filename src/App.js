@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import TopSongsContainer from './containers/TopSongsContainer.js'
+import SongsContainer from './containers/SongsContainer.js'
 
 class App extends Component {
   render() {
     return (
-      <TopSongsContainer/>
+      <SongsContainer/>
     );
   }
 }
